@@ -44,14 +44,14 @@ Show the number of mistake user have on the screen and alert every time the user
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/gamelost.gif)
-![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/mistake1.gif)
-![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/mistake2.gif)
-![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/mistake3.gif)
-![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/win1.gif)
-![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/win2.gif)
-![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/win3.gif)
-![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/showSound.gif)
+![lost game](https://github.com/Juliahi123/codepath-prework/blob/main/gamelost.gif)
+![firstmistake](https://github.com/Juliahi123/codepath-prework/blob/main/mistake1.gif)
+![second mistake](https://github.com/Juliahi123/codepath-prework/blob/main/mistake2.gif)
+![third mistake](https://github.com/Juliahi123/codepath-prework/blob/main/mistake3.gif)
+![win game part 1](https://github.com/Juliahi123/codepath-prework/blob/main/win1.gif)
+![win game part 2](https://github.com/Juliahi123/codepath-prework/blob/main/win2.gif)
+![win game part 3](https://github.com/Juliahi123/codepath-prework/blob/main/win3.gif)
+![Click each button](https://github.com/Juliahi123/codepath-prework/blob/main/showSound.gif)
 
 
 ## Reflection Questions
