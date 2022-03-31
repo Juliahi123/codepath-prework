@@ -52,7 +52,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ![win game part 2](https://github.com/Juliahi123/codepath-prework/blob/main/win2.gif)
 ![win game part 3](https://github.com/Juliahi123/codepath-prework/blob/main/win3.gif)
 ![Click each button](https://github.com/Juliahi123/codepath-prework/blob/main/showSound.gif)
-
+![run out time](https://github.com/Juliahi123/codepath-prework/blob/main/outoftimegif.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
