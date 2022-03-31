@@ -42,10 +42,16 @@ Show the number of mistake user have on the screen and alert every time the user
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+
+![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/gamelost.gif)
+![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/mistake1.gif)
+![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/mistake2.gif)
+![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/mistake3.gif)
+![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/win1.gif)
+![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/win2.gif)
+![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/win3.gif)
+![Alt text](https://github.com/Juliahi123/codepath-prework/blob/main/showSound.gif)
+
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
