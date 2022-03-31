@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Welcome to Light and Sound Memory Game!
+    </h1>
+    <p>
+      Repeat back the pattern by pressing buttons. Let's see if you can win this game!
+     
+    </p>
+    
+    <p1> PS: You are only allow to make 3 mistake, good luck! <br></p1>
+    
+    <button id = "startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id = "stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    <p> mistake: 
+    <label id = "mis">
+      0
+    </label>
+    </p>
+    <p> The time you left is: 
+    <label id = "time">
+      10
+    </label>
+    </p>
+    <div id = "gameButtonArea">
+      <button id = "button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+          <img id = "i1a" src="https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/drak.jpg?v=1648495759060" alt="sky" width="500" height="600" class="appear">
+          <img id = "i1b" src="https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/sky.jpeg?v=1648495773323" alt="s" width="500" height="600" >
+          <audio src = "https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/AA.mp4?v=1648589280233" id= "i1ba"></audio>
+      </button>
+      <button id = "button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+          <img id = "i2a" src="https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/drak.jpg?v=1648495759060" alt="sky" width="500" height="600" class="appear">
+          <img id = "i2b" src="https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/sky.jpeg?v=1648495773323" alt="s" width="500" height="600">
+          <audio src = "https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/BB.mp4?v=1648589560569" id= "i2ba"></audio>
+
+      </button>
+      <button id = "button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+          <img id = "i3a" src="https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/drak.jpg?v=1648495759060" alt="sky" width="500" height="600" class="appear">
+          <img id = "i3b" src="https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/sky.jpeg?v=1648495773323" alt="s" width="500" height="600">
+          <audio src = "https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/cc.mp4?v=1648589610168" id= "i3ba"></audio>
+
+      </button>
+      <button id = "button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+          <img id = "i4a" src="https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/drak.jpg?v=1648495759060" alt="sky" width="500" height="600" class="appear">
+          <img id = "i4b" src="https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/sky.jpeg?v=1648495773323" alt="s" width="500" height="600">  
+          <audio src = "https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/dd.mp4?v=1648589613099" id= "i4ba"></audio>
+
+      </button>
+      <button id = "button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
+          <img id = "i5a" src="https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/drak.jpg?v=1648495759060" alt="sky" width="500" height="600" class="appear">
+          <img id = "i5b" src="https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/sky.jpeg?v=1648495773323" alt="s" width="500" height="600">
+          <audio src = "https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/Single-church-bell-and-sleigh-bells-sound-effect.mp3?v=1648587355307" id= "i5ba"></audio>
+
+      </button>
+      <button id = "button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">
+          <img id = "i6a" src="https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/drak.jpg?v=1648495759060" alt="sky" width="500" height="600" class="appear">
+          <img id = "i6b" src="https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/sky.jpeg?v=1648495773323" alt="s" width="500" height="600">
+          <audio src = "https://cdn.glitch.global/ddc5d817-c288-45df-9fe9-54c02688c794/belledit1mp3.mp3?v=1648589616742" id= "i6ba"></audio>
+
+      </button>
+    </div>
+  </body>
+</html>
